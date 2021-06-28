@@ -26,7 +26,7 @@ extends:
     type: javascript
     to: semantic-release
     npmCmds:
-    - 'npm install'
+    - npm install
     - npm prune
     - npm run lint
     - npm run test:single
